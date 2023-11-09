@@ -15,11 +15,11 @@ export default {
 <template>
     <div class="event">
         <div>
-            <h2>{{ event.title }}</h2>
-            <p>confirmations: {{ event.confirmations }}</p>
+            <h2 class="event__title">{{ event.title }}</h2>
+            <p class="event__confirmations">confirmations: {{ event.confirmations }}</p>
         </div>
-        <p>{{ event.description }}</p>
-        <ul>
+        <p class="event__description">{{ event.description }}</p>
+        <ul class="event__tags">
             <li v-for="tag in event.tags">
                 <Tag :tag="tag" />
             </li>
@@ -28,7 +28,7 @@ export default {
 </template>
 
 <style scoped>
-    h2 {
-        color: red;
+    .event {
+        background: lightgray;
     }
 </style>
