@@ -51,6 +51,7 @@ export default {
         flex-direction: column;
         gap: 10px;
         padding: 10px;
+        flex: 0.3;
     }
 
     .events {

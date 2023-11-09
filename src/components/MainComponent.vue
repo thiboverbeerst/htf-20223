@@ -1,23 +1,31 @@
 <script>
-import Map from './Map.vue';
+
+import DestinationView from "./DestinationsView.vue";
 import Events from './Events.vue';
 
 export default {
     components: {
         Map,
-        Events
+        Events,
+        DestinationView
     }
 }
 
 </script>
 
 <template>
-    <div>
-        <Map />
+    <div class="main-component-vue">
+        <DestinationView/>
         <Events />
     </div>
 </template>
 
 <style scoped>
+
+.main-component-vue {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 
 </style>

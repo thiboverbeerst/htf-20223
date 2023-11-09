@@ -2,18 +2,44 @@
   "name": "htf",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve-cli": "vue-cli-service serve",
+    "build-cli": "vue-cli-service build"
   },
   "dependencies": {
     "json-server": "^0.17.4",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "chart.js": "^4.1.1",
+    "chartjs-adapter-moment": "^1.0.1",
+    "core-js": "^3.8.3",
+    "moment": "^2.29.4",
+    "ol": "^7.1.0",
+    "sockjs-client": "^1.6.1",
+    "sonar-scanner": "^3.1.0",
+    "vnu-jar": "^20.2.28",
+    "vue-chartjs": "^5.1.0",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.12.7",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^26.6.3",
+    "jest-sonar-reporter": "^2.0.0",
+    "jsdom": "^15.1.1",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0",
+    "vue-cli-plugin-route": "~0.0.7"
   }
 }

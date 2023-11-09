@@ -8,6 +8,6 @@ import MainContent from './components/MainComponent.vue';
   <MainContent />
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use "./assets/scss/main.scss";
 </style>

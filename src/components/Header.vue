@@ -12,7 +12,7 @@ export default {
 <template>
     <header>
         <div class="header__left">
-            <img class="header__img" src="/src/assets/jhl3.jpeg" alt="logo" title="logo"/>
+            <img class="header__img" src="../assets/jhl3.jpeg" alt="logo" title="logo"/>
             <h1 class="header__title">Jungle Hike Logger</h1>
         </div>
         <button v-on:click="handleAddEvent">Report Event</button>
