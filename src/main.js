@@ -4,7 +4,6 @@ import './reset.css'
 import App from './App.vue'
 import store from './store';
 
-
 // setup Shippert API
 const CONFIG = require("@/config.json");
 const API = `${CONFIG.host ? CONFIG.host + '/': ''}${CONFIG.group ? CONFIG.group + '/' : ''}api/`;
