@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="event" :class=event.hazard>
+    <div class="box event" :class=event.hazard>
         <div>
             <h2 class="event__title">{{ event.title }}</h2>
             <p class="event__confirmations">confirmations: {{ event.confirmations }}</p>
@@ -30,12 +30,12 @@ export default {
 
 <style scoped>
     .event {
-        background: lightgray;
         border-radius: 1rem;
         padding: 20px 20px;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
     .event > div {

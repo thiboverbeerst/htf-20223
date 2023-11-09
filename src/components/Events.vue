@@ -46,7 +46,7 @@ export default {
 <style scoped>
 
     .container {
-        width: 30%;
+        width: 20%;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -59,5 +59,7 @@ export default {
         flex-direction: column;
         /* flex: 0.3; */
         gap: 40px;
+        overflow-y: scroll;
+        max-height: 40rem;
     }
 </style>

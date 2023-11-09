@@ -13,7 +13,7 @@
         </ul>
       </div>
       <div class="location-details box">
-        <h2>Location Details</h2>
+        <h2>Event Details</h2>
         <ul  v-if="this.clickedLocation">
           <li>
             <div class="icon-text-wrapper">
@@ -21,6 +21,13 @@
               <p class="flex-center-vertical">Title: </p>
             </div>
             <span class="location-name location-value flex-center-vertical">{{ this.clickedLocation["title"] }}</span>
+          </li>
+          <li>
+            <div class="icon-text-wrapper">
+              <Icon :icon="`description`"/>
+              <p class="flex-center-vertical">Date: </p>
+            </div>
+            <span class="location-name location-value flex-center-vertical">{{ this.clickedLocation["timestamp"] }}</span>
           </li>
           <li>
             <div class="icon-text-wrapper">
@@ -104,6 +111,7 @@ main {
   flex-direction: row;
   gap: 1rem;
   flex: 0.7;
+  margin-top: 2.4rem;
 }
 
 .map-box {
@@ -115,6 +123,7 @@ main {
 
   h2 {
     text-transform: uppercase;
+    margin-bottom: 1rem;
   }
 
 }
@@ -135,6 +144,12 @@ main {
   li {
     display: flex;
     gap: 0.25rem;
+  }
+
+  span {
+    font-weight: normal;
+    font-style: italic;
+    color: grey;
   }
 
 }

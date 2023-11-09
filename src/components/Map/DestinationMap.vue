@@ -14,9 +14,9 @@ import { Point } from 'ol/geom';
 import {mapActions, mapGetters} from "vuex";
 
 // Marker Images
-const blueMarker = require(`@/assets/media/blue_marker.png`);
+const blueMarker = require(`@/assets/media/red_marker.png`);
 const orangeMarker = require(`@/assets/media/orange_marker.png`);
-const purpleMarker = require(`@/assets/media/purple_marker.png`);
+const purpleMarker = require(`@/assets/media/green_marker.png`);
 
 
 export default {
