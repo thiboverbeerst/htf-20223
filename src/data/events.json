@@ -76,16 +76,32 @@
       ]
     },
     {
-      "title": "Zot",
-      "description": "Alles",
+      "user": "me",
+      "title": "my events",
+      "description": "test",
       "hazard": "low",
+      "tags": [
+        "animal"
+      ],
+      "confirmations": 0,
+      "location": {
+        "longitude": 0,
+        "latitude": 0
+      },
+      "id": "XSYJJvd"
+    },
+    {
+      "user": "me",
+      "title": "test",
+      "description": "test",
+      "hazard": "intermediate",
       "tags": [],
       "confirmations": 0,
       "location": {
-        "longitude": 4.422544,
-        "latitude": 51.218796
+        "longitude": 0,
+        "latitude": 0
       },
-      "id": "Qz3q4Hu"
+      "id": "T-dmJWV"
     }
   ]
 }

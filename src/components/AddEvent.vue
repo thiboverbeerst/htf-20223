@@ -3,6 +3,7 @@ export default {
     data() {
         return {
             eventData: {
+                user: "me",
                 title: '',
                 description: '',
                 hazard: 'low',

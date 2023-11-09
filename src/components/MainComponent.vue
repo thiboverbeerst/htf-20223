@@ -3,6 +3,7 @@
 import DestinationView from "./DestinationsView.vue";
 import Events from './Events.vue';
 import AddEvent from './AddEvent.vue';
+import ShowOwnEvents from "./ShowOwnEvents.vue";
 
 export default {
     methods: {
@@ -11,13 +12,15 @@ export default {
         }
     },
     props: {
-        show: Boolean
+        show: Boolean,
+        showOwn: Boolean
     },
     components: {
         Map,
         Events,
         DestinationView,
-        AddEvent
+        AddEvent,
+        ShowOwnEvents
     }
 }
 
@@ -26,6 +29,7 @@ export default {
 <template>
     <div class="container">
         <AddEvent v-if="show" @cancel-add-event="cancel" />
+        <showOwnEvents v-if="showOwn" />
         <div class="main-component-vue">
             <DestinationView/>
             <Events />
