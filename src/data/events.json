@@ -76,20 +76,16 @@
       ]
     },
     {
-      "title": "test werkt",
-      "description": "test werkt",
-      "hazard": "intermediate",
-      "tags": [
-        "animal",
-        "intermediate"
-      ],
+      "title": "Zot",
+      "description": "Alles",
+      "hazard": "low",
+      "tags": [],
       "confirmations": 0,
       "location": {
-        "longitude": 4.3132,
-        "latidute": 1,
-        "latitude": 50.8511
+        "longitude": 4.422544,
+        "latitude": 51.218796
       },
-      "id": "m2zzd-u"
+      "id": "Qz3q4Hu"
     }
   ]
 }
