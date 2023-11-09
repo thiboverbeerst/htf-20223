@@ -1,71 +1,90 @@
 {
-    "events": [
-      {
-        "id": "1",
-        "location": {
-          "latitude": -14.235,
-          "longitude": -51.9253
-        },
-        "timestamp": "2023-10-03T08:20:00.000Z",
-        "title": "Toucan Paradise",
-        "description": "Visited an area filled with toucans of various species. Their vibrant beaks and playful behavior were a delight to observe.",
-        "confirmations": 10,
-        "hazard": "low",
-        "tags": ["animal"]
+  "events": [
+    {
+      "id": "1",
+      "location": {
+        "latitude": -14.235,
+        "longitude": -51.9253
       },
-      {
-        "id": "2",
-        "location": {
-          "latitude": -3.4653,
-          "longitude": 29.8295
-        },
-        "timestamp": "2023-10-02T12:05:00.000Z",
-        "title": "Jaguar Sighting",
-        "description": "Had a rare sighting of a jaguar roaming in its natural habitat. Stayed still to admire this magnificent creature from afar.",
-        "confirmations": 6,
-        "hazard": "high",
-        "tags": ["animal"]
+      "timestamp": "2023-10-03T08:20:00.000Z",
+      "title": "Toucan Paradise",
+      "description": "Visited an area filled with toucans of various species. Their vibrant beaks and playful behavior were a delight to observe.",
+      "confirmations": 10,
+      "hazard": "low",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "2",
+      "location": {
+        "latitude": -3.4653,
+        "longitude": 29.8295
       },
-      {
-        "id": "3",
-        "location": {
-          "latitude": 51.1901512,
-          "longitude": 5.4249487
-        },
-        "timestamp": "2023-10-11T10:30:00.000Z",
-        "title": "Majestic Tiger Sighting",
-        "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
-        "confirmations": 3,
-        "hazard": "high",
-        "tags": ["animal"]
+      "timestamp": "2023-10-02T12:05:00.000Z",
+      "title": "Jaguar Sighting",
+      "description": "Had a rare sighting of a jaguar roaming in its natural habitat. Stayed still to admire this magnificent creature from afar.",
+      "confirmations": 6,
+      "hazard": "high",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "3",
+      "location": {
+        "latitude": 51.1901512,
+        "longitude": 5.4249487
       },
-      {
-        "id": "4",
-        
-        "location": {
-          "latitude": 51.1901512,
-          "longitude": 7.1249487
-        },
-        "timestamp": "2023-10-29T13:50:07.332Z",
-        "title": "Majestic Tiger Sighting",
-        "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
-        "confirmations": 8,
-        "hazard": "high",
-        "tags": ["animal"]
+      "timestamp": "2023-10-11T10:30:00.000Z",
+      "title": "Majestic Tiger Sighting",
+      "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
+      "confirmations": 3,
+      "hazard": "high",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "4",
+      "location": {
+        "latitude": 51.1901512,
+        "longitude": 7.1249487
       },
-      {
-        "id": "5",
-        "location": {
-          "latitude": 49.1901112,
-          "longitude": 8.1249487
-        },
-        "timestamp": "2023-10-29T13:52:10.596Z",
-        "title": "Majestic Baby Tiger Sighting",
-        "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
-        "confirmations": 4,
-        "hazard": "intermediate",
-        "tags": ["animal"]
-      }
-    ]
-  }
-  
+      "timestamp": "2023-10-29T13:50:07.332Z",
+      "title": "Majestic Tiger Sighting",
+      "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
+      "confirmations": 8,
+      "hazard": "high",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "5",
+      "location": {
+        "latitude": 49.1901112,
+        "longitude": 8.1249487
+      },
+      "timestamp": "2023-10-29T13:52:10.596Z",
+      "title": "Majestic Baby Tiger Sighting",
+      "description": "Spotted a beautiful tiger near the riverbank during my jungle expedition. It was a breathtaking sight!",
+      "confirmations": 4,
+      "hazard": "intermediate",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "hazard": "intermediate",
+      "tags": [
+        "animal",
+        "intermediate"
+      ],
+      "confirmations": 0,
+      "id": "rAfhUe7"
+    }
+  ]
+}

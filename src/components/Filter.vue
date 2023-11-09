@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
     <div class="filter">
-        <p>Choose risk: </p>
+        <p>Choose risk level:</p>
         <select @change="onChange" name="hazard" id="hazard">
             <option value="all">all</option>
             <option value="low">low</option>
@@ -22,5 +22,10 @@ export default {
     .filter {
         display: flex;
         justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .filter > p {
+        font-weight: 400;
     }
 </style>

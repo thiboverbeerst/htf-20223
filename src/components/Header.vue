@@ -1,10 +1,10 @@
 <script>
 export default {
     methods: {
-        handleAddEvent(e) {
+        showAddEvent(e) {
             e.preventDefault();
-            console.log("add event");
-        }
+            this.$emit('show-add-event');
+        },
     }
 }
 </script>
@@ -15,17 +15,23 @@ export default {
             <img class="header__img" src="/src/assets/jhl3.jpeg" alt="logo" title="logo"/>
             <h1 class="header__title">Jungle Hike Logger</h1>
         </div>
-        <button v-on:click="handleAddEvent">Report Event</button>
+        <button v-on:click="showAddEvent">Report Event</button>
     </header>
 </template>
 
-<style lang="css" scoped>
+<style scoped>
+    .buttons {
+        display: flex;
+        margin-top: 20px;
+        gap: 5px;
+    }
 
     header {
         margin: 40px 40px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
     }
     .header__left {
         display: flex;
