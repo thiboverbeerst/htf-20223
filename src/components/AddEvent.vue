@@ -9,16 +9,24 @@ export default {
                 tags: [],
                 confirmations: 0,
                 location: {
-                    longitude: 1,
-                    latidute: 1
+                    longitude: 0,
+                    latitude: 0
                 }
             }
         };
     },
     methods: {
         getLocation() {
-            this.eventData.location.latidute = null;
-            this.eventData.location.longitude = null;
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition((position) => {
+                    this.eventData.location.latitude = position.coords.latitude;
+                    this.eventData.location.longitude = position.coords.longitude;
+                }, (error) => {
+                    console.error('Error getting location:', error);
+                });
+            } else {
+                console.error('Geolocation is not supported by this browser.');
+            }
         },
         cancelAddEvent() {
             this.$emit('cancel-add-event');
@@ -31,11 +39,15 @@ export default {
                     },
                     body: JSON.stringify(this.eventData),
             });
-            this.eventData.title = ""
-            this.eventData.description = ""
-            this.eventData.hazard = ""
-            this.eventData.tags = []
+            this.eventData.title = "";
+            this.eventData.description = "";
+            this.eventData.hazard = "";
+            this.eventData.tags = [];
+            this.$emit('cancel-add-event');
         }
+    },
+    created() {
+        this.getLocation();
     },
     emits: ['cancel-add-event']
 }
