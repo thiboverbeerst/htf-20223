@@ -18,17 +18,20 @@ export default {
             <h2 class="event__title">{{ event.title }}</h2>
             <p class="event__confirmations">confirmations: {{ event.confirmations }}</p>
         </div>
-        <p>{{ event.hazard }}</p>
+        <p>hazard: {{ event.hazard }}</p>
         <p class="event__description">{{ event.description }}</p>
         <ul class="event__tags">
-            <li v-for="tag in event.tags">
-                <Tag :tag="tag" />
-            </li>
+            <Tag v-for="tag in event.tags" :tag="tag" />
         </ul>
     </div>
 </template>
 
 <style scoped>
+
+    .event__tags {
+        display: flex;
+        gap: 5px;
+    }
     .event {
         border-radius: 1rem;
         padding: 20px 20px;

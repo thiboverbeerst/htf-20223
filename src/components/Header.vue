@@ -34,7 +34,7 @@ export default {
     }
 
     header {
-        margin: 40px 40px;
+        margin: 10px 40px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -45,10 +45,10 @@ export default {
         align-items: center;
     }
     .header__img {
-        height: 140px;
+        height: 70px;
     }
     .header__title {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         margin-left: 40px;
     }

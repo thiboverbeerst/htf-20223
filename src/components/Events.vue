@@ -60,6 +60,6 @@ export default {
         /* flex: 0.3; */
         gap: 40px;
         overflow-y: scroll;
-        max-height: 40rem;
+        max-height: 50rem;
     }
 </style>

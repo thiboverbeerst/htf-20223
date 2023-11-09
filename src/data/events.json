@@ -27,7 +27,8 @@
       "confirmations": 6,
       "hazard": "high",
       "tags": [
-        "animal"
+        "animal",
+        "test"
       ]
     },
     {
@@ -154,6 +155,50 @@
         "boating",
         "city"
       ]
+    },
+    {
+      "user": "me",
+      "title": "my event",
+      "description": "my event",
+      "hazard": "intermediate",
+      "tags": [
+        "animal",
+        "intermediate"
+      ],
+      "confirmations": 0,
+      "location": {
+        "longitude": 4.3132,
+        "latitude": 50.8511
+      },
+      "id": "Xl8bAqU"
+    },
+    {
+      "user": "me",
+      "title": "test",
+      "description": "test",
+      "hazard": "low",
+      "tags": [
+        "animal"
+      ],
+      "confirmations": 0,
+      "location": {
+        "longitude": 4.3132,
+        "latitude": 50.8511
+      },
+      "id": "eFVBjXb"
+    },
+    {
+      "user": "me",
+      "title": "fucking shit",
+      "description": "test ",
+      "hazard": "low",
+      "tags": [],
+      "confirmations": 0,
+      "location": {
+        "longitude": 4.3132,
+        "latitude": 50.8511
+      },
+      "id": "3oG0-Sn"
     }
   ]
 }
