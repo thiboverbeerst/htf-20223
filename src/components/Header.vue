@@ -5,6 +5,10 @@ export default {
             e.preventDefault();
             this.$emit('show-add-event');
         },
+        showOwnEvents(e) {
+            e.preventDefault();
+            this.$emit('show-own-events');
+        }
     }
 }
 </script>
@@ -15,7 +19,10 @@ export default {
             <img class="header__img" src="../assets/jhl3.jpeg" alt="logo" title="logo"/>
             <h1 class="header__title">Jungle Hike Logger</h1>
         </div>
-        <button v-on:click="showAddEvent">Report Event</button>
+        <div>
+            <button v-on:click="showAddEvent">Report Event</button>
+            <button v-on:click="showOwnEvents">Show my Events</button>
+        </div>
     </header>
 </template>
 
